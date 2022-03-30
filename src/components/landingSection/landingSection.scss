@@ -1,0 +1,43 @@
+.techZone{
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 0;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    .techZoneTitle{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        div>p{
+             font-size: 9.3vw;
+        }
+        div>p:nth-child(1){
+            background: var(--brand-default);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }   
+        p:nth-child(3){
+            width: 80%;
+        }
+    }
+
+    .techZoneImg{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        background: var(--illustration-opacity);
+        border-radius: 104px;
+        min-width: 650px;
+        img{
+            position: absolute;
+            bottom: 0;
+            width: 120%;
+        }
+    }
+
+}
+
+@media (max-width:1024px){
+
+
+}

@@ -1,0 +1,58 @@
+.walktroughCard{
+    display: grid;
+    grid-template-columns: minmax(200px,532px);
+    grid-auto-rows: minmax(100px,676px);
+    border: 1px solid #DAE4F2;
+    background-color: #fff;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.05);
+    padding: 12px;
+    border-radius: 32px;
+}
+.walktroughCardContent{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    border: 1px solid #DAE4F2;
+    border-radius: 32px;
+    
+}
+.walktroughCardImg{
+    position: relative;
+    border-radius: 32px 32px 0 0;
+    background: var(--illustration);
+    img{
+        position: absolute;
+        bottom: 0;
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+.walktroughCardText{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 24px;
+    div:nth-child(1){
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        img{
+            background-color: var(--brand-light);
+            border-radius: 5px;
+            padding: 5px;
+            width: 45px;
+            height: 45px;
+
+            }
+        p{
+            background: var(--brand-default);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+        display: flex;
+    }
+}

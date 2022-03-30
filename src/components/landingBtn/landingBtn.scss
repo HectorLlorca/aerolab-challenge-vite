@@ -1,0 +1,14 @@
+.landingBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 17px;
+    border: none;
+    background: var(--brand-hover);
+    color: var(--text-0);
+    padding: 22px 42px;
+    margin: 55px 0;
+
+}

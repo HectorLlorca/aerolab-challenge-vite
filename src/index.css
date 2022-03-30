@@ -1,0 +1,166 @@
+:root {
+  --text-900: #DAE4F2;
+  --text-600: #7C899C;
+  --text-500: #8FA3BF;
+  --text-300: #DAE4F2;
+  --text-200: #E6EDF7;
+  --text-100: #F5F9FF;
+  --text-0: #fff;
+  --brand-default: linear-gradient(102.47deg, #176FEB -5.34%, #FF80FF 106.58%);;
+  --brand-hover:linear-gradient(102.47deg, #1667D9 -5.34%, #F279F2 106.58%);
+  --brand-light:#E5F0FF;
+  --brand-light2:#CCE1FF;
+  --illustration:linear-gradient(102.47deg, #7296EB -5.34%, #EAC0E9 106.58%, #EAC0E9 106.58%);
+  --illustration-opacity:linear-gradient(102.47deg, rgba(23, 111, 235, 0.5) -5.34%, rgba(255, 128, 255, 0.5) 106.58%);;
+}
+
+
+#root{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.l1Title{
+  font-size: 200px;
+  font-weight: 900;
+  line-height: 80%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.l2Title{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 80%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+}
+.l3Title{
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+
+}
+.l1TextDefault{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-600);
+  line-height: 150%;
+  letter-spacing: 0%;
+
+}
+.l1TextCaps{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+  color: var(--text-600);
+  letter-spacing: 24%;
+  text-transform: uppercase;
+
+}
+.l1TextLight{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 24%;  
+}
+.l2TextDefault{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+}
+.l2TextCaps{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 5%;
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width:1024px){
+  .l1Title{
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 80%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+  .l2Title{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 80%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+  
+  }
+  .l3Title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  
+  }
+  .l1TextDefault{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .l1TextCaps{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 24%;
+    text-transform: uppercase;
+  
+  }
+  .l1TextLight{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 24%;  
+  }
+  .l2TextDefault{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+  .l2TextCaps{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+  }
+
+}
+
+
