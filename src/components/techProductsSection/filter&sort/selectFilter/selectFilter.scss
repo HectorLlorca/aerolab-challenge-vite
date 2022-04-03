@@ -1,0 +1,13 @@
+.selectFilter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &>*{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--text-600);
+        line-height: 150%;
+        letter-spacing: 0%;
+    }
+
+}

@@ -1,0 +1,14 @@
+.techProductsSection {
+  display: grid;
+  gap: 2rem;
+}
+.techProductsSectionTitle {
+  display: flex;
+  gap: 0.7rem;
+  p:nth-child(1){
+    background: #5174F0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}

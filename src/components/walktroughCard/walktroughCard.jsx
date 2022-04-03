@@ -1,7 +1,6 @@
 import './walktroughCard.scss'
 
 const WalktroughCard = ({ img, icon, text, classe }) => {
-  console.log(classe)
   return (
     <div className={'walktroughCard ' + classe}>
       <div className="walktroughCardContent">

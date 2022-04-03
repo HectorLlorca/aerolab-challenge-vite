@@ -1,9 +1,7 @@
 .techZone{
-    display: flex;
-    gap: 2rem;
+    display: grid;
     padding: 3rem 0;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
     .techZoneTitle{
         display: flex;
         flex-direction: column;
@@ -23,11 +21,11 @@
 
     .techZoneImg{
         position: relative;
-        display: flex;
-        justify-content: center;
+        width: 100%;
+        display: grid;
+        justify-items: center;
         background: var(--illustration-opacity);
         border-radius: 104px;
-        min-width: 650px;
         img{
             position: absolute;
             bottom: 0;

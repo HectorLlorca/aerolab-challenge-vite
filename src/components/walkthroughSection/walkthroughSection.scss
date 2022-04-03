@@ -1,48 +1,29 @@
-.walkthroughSection{
-    position: relative;
-    display: grid;
-    grid-template-areas: 'overlap';
-    grid-template-columns: 1fr;
-    grid-auto-rows: minmax(100px,700px);
-    z-index: 1;
-    
-    &::after{
-        z-index: -1;
-        content: ' ';
-        position: absolute;
-        top: 50px;
-        right: -100vw;
-        left: -100vw;
-        bottom: 50px;
-        background: var(--illustration-opacity);
-    }
-    
-}
-.card1{
-    position: absolute;
-    left: 0%;
-    bottom: -5%;
-    z-index: 1;
-    transform: rotate(-3deg);
-    
-}
-.card2{
-    position: absolute;
-    left: 30%;
-    z-index: 2;
-    *{
-        opacity: 1;
-        
-    }
-    
-    
-}
-.card3{
-    position: absolute;
-    right: 0%;
-    z-index: 3;
-    bottom: -5%;
-    transform: rotate(3deg);
+.walkthroughSection {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: 676px;
+  z-index: 1;
 
-
+  &::after {
+    z-index: -1;
+    content: ' ';
+    position: absolute;
+    top: 50px;
+    right: -100vw;
+    left: -100vw;
+    bottom: 50px;
+    background: var(--illustration-opacity);
+  }
+}
+.card1 {
+  z-index: 1;
+  transform: rotate(-3deg);
+}
+.card2 {
+  z-index: 2;
+}
+.card3 {
+  z-index: 3;
+  transform: rotate(3deg);
 }
